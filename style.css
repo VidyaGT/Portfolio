@@ -1,0 +1,156 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+    width: 100%;
+    background: linear-gradient(270deg ,#2e1830 ,#0c4267);
+    color: #fff;
+    font-family:'Poppins' , sans-serif ;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color:  #321035;
+    height: 10vh;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    
+}
+.left{
+    font-size: 1.4rem;
+}
+
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 23px 0;
+}
+.lSec{
+    height:50% ;
+    width : 30%;
+    padding:100px;
+    font-size: 1.8rem;
+    background: linear-gradient(155deg ,#402742,#4d7793);
+    color:azure
+   
+}
+.rSec{
+    height: 80%;
+    width:50%;
+}
+.rSec img{
+    height:90%;
+    width: 100%;
+   margin: 50px 0;
+}
+.colr{
+    color: rgb(39, 156, 146);
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color:rgb(105, 105, 185);
+    font-size: 1.1rem;
+}
+.second{
+    height: 80vh;
+    width: 80vw;
+   margin:20px ;
+}
+.second h1{
+    font-size: 1.8rem;
+}
+.second .box{
+    background: #fff;
+    height: 2px;
+    width: 80vw;
+    margin: 56px 0;
+    display: flex;
+}
+
+.second .vertical{
+    width: 1px;
+    height: 70px;
+    background-color: #fff;
+    margin: 0 160px;
+   
+}
+.vert{
+ position: relative;
+ top: 75px;
+ width: 150px;
+} 
+.vertical-text{
+ position: relative;
+ top: 78px;
+ color: aqua;
+ width: 250px;
+ font-size: 12px;
+}
+.cgpa{
+    position: relative;
+    top: 80px;
+    color: aliceblue;
+    width: 120px;
+    font-size: 14px;
+}
+footer{
+    background-color: #03192d;
+    height: 150px;
+}
+.footer{
+    display: flex;
+    padding:20px 150px ;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+footer .footer-right{
+text-align: center;
+color: #568582;
+padding: 12px 0;
+}
+.lSec .btn{
+    margin:20px 1px;
+    padding: 12px;
+    background:#8e7a95;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size:18px;
+    cursor: pointer;
+
+}
+#list h2{
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+.num{
+    margin: 10px;
+    padding: 12px;
+   
+}
+.nam{
+    color: #0fefef;
+    font-size: 15px;
+    margin: 5px;
+}
+.inf{
+    color:#e8d5cd;
+    font-size: 12px;
+    margin: 5px;
+}
